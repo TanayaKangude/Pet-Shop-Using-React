@@ -2,37 +2,244 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-custom-container {
+  display:inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category {
+  margin-left:60px;
+  margin-right: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu {
+  margin-left: 10px;
+  margin-right:10px;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  margin-right:20px;
+  margin-left: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+  margin-left: 70px;
+}
+
+.icon1{
+  margin-left: 15px;
+}
+
+.container1 {
+  background-color: rgb(249,243,236);
+  margin-left: 0;
+}
+
+.service {
+  margin: 0px;
+  flex-wrap: nowrap;
+}
+
+.service1 {
+  flex-wrap: nowrap;
+}
+
+.section3 .custom-class .row2 .cards {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0 ;
+  border: none ;
+}
+.section4 .custom-class .rows .cards {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0 ;
+  border: none ;
+}
+.card1{
+  margin-left: 33px;
+}
+
+.button1 {
+  background-color: transparent;
+}
+
+.custom-class {
+  position: relative;
+}
+
+.clothing {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.shop {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.button2 {
+  padding: 25px !important;
+  padding-left:35px !important;
+}
+
+.color1 {
+  color:#DEAD6F;
+}
+.p1{
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.h11{
+  font-size: 80px;
+  font-family: chilanka, cursive ;
+  color: #41403E;
+}
+
+.text {
+  text-align: left;
+}
+
+.h22 {
+  font-size: 64px;
+  font-family: chilanka, cursive ;
+  color: #41403E;
+}
+
+.title{
+  font-family: chilanka, cursive ;
+  font-size:28px;
+}
+
+.middle-nav {
+  text-align: center;
+}
+.one {
+  margin-left: 95px;
+}
+
+.section4 .middle-nav .menu {
+  font-family: chilanka, cursive ;
+  font-size:22px;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+}
+.section4 .middle-nav .four{
+  margin-right:0px ;
+
+}
+
+.p2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  margin-top: 150px;
+}
+
+.text1 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.text-image {
+  margin-top:95px;
+  margin-top:70px;
+}
+
+.inputBox{
+  height: 65px;
+  width: 545px;
+  border: #41403E ;
+  margin-bottom: 18px ;
+}
+
+.form2 .submitButton{
+  background-color: #41403E;
+  border: #41403E ;
+  color:#FFFFFF;
+  font-size: 100%;
+  height: 65px;
+  width: 545px;
+}
+
+.formdiv{
+  height:670px;
+  background-color: #F9F3EC;
+}
+.imgdiv{
+  height:500px; 
+}
+
+.section3{
+  height: 700px;
+}
+
+.form3{
+  margin-left: 410px;
+}
+.form2 .submitButton:hover{
+  background-color: #41403E;
+  border: #41403E ;
+  color:#FFFFFF;
+}
+
+.h12{
+  font-size: 80px;
+  font-family: chilanka, cursive ;
+  color: #41403E;
+  padding-top: 100px;
+}
+
+.section9 .custom-class .row2 .cards {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0 ;
+  border: none ;
+  text-align: left;
+}
+
+.alink{
+  font-size: 16px;
+  font-family: chilanka, cursive ;
+  color:#908F8D;
+}
+
+.h33{
+  font-size: 28px;
+  font-family: chilanka, cursive ;
+  color:#41403E;
+}
+
+.section9 .custom-class .row2 .cards .custom-card-body .cardimg{
+  height:450px;
+  border-radius: 15px;
+}
+.section9 .custom-class .row2 .cards .custom-card-body .cardimg1{
+  height:270px;
+}
+
+.cardimage{  
+  height: 70px;
+  width:70px;
+}
+
+.section11 .custom-class .rows .custom-col{
+  height: 200px;
+  width:200px;
+  padding: 0px;
+}
+
+.section12 .custom-class .rows .custom-col .p3 {
+  font-family: chilanka, cursive ;
+  font-size: 16px;
+  color: #908F8D  ;
+  font-weight:normal;
+}
+
+.section12  {
+  text-align: left;
+}
+
+.section12 .custom-class .rows .custom-col .a:hover {
+  color:#DEAD6F;
 }
